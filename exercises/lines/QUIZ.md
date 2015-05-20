@@ -38,5 +38,3 @@ probably arrives on the same chunk:
 Your own program should use `split` in this way, but you should transform the
 input and pipe the output through to `process.stdout`.
 
-Make sure to `npm install split through2` in the directory where your solution
-file lives.

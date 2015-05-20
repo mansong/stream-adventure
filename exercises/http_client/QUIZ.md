@@ -20,5 +20,3 @@ You can even chain both steps together: src.pipe(r).pipe(dst);
 
 Hint: for your code, src will be process.stdin and dst will be process.stdout.
 
-Make sure to `npm install request` in the directory where your solution file
-lives.

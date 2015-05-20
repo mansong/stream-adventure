@@ -1,10 +1,6 @@
 Convert data from `process.stdin` to upper-case data on `process.stdout`
 using the `through2` module.
 
-To get the `through2` module you'll need to do:
-
-    npm install through2
-
 A transform stream takes input data and applies an operation to the data to
 produce the output data.
 

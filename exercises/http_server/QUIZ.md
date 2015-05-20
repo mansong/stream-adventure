@@ -54,6 +54,3 @@ defined:
     function end (done) { done(); }
 
 Do that, but send upper-case data in your http server in response to POST data.
-
-Make sure to `npm install through2` in the directory where your solution file
-lives.
