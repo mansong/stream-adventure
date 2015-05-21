@@ -11,3 +11,11 @@ data to `process.stderr`:
 
 Your program is basically the same idea, but instead of `'data.txt'`, the
 filename comes from `process.argv[2]` and you should pipe to stdout, not stderr.
+
+
+To verify your `program.js` against the expected output, do:
+
+`node program.js data.txt`
+
+or press the Submit button.
+

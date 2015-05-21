@@ -20,3 +20,8 @@ You can even chain both steps together: src.pipe(r).pipe(dst);
 
 Hint: for your code, src will be process.stdin and dst will be process.stdout.
 
+To verify your `program.js` against the expected output, do:
+
+`node program.js`
+
+or press the Submit button.

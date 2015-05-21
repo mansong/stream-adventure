@@ -16,3 +16,8 @@ With `trumpet` you can create a transform stream from a css selector:
 Now `stream` outputs all the inner html content at `'.beep'` and the data you
 write to `stream` will appear as the new inner html content.
 
+To verify your `program.js` against the expected output, do:
+
+`node program.js`
+
+or press the Submit button.

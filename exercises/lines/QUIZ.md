@@ -38,3 +38,8 @@ probably arrives on the same chunk:
 Your own program should use `split` in this way, but you should transform the
 input and pipe the output through to `process.stdout`.
 
+To verify your `program.js` against the expected output, do:
+
+`node program.js < data.txt`
+
+or press the Submit button.

@@ -31,8 +31,8 @@ We can also stream a request to populate a file with data:
 
 You can test this post server with curl:
 
-    $ node server.js 8000 &
-    $ echo hack the planet | curl -d@- http://localhost:8000
+    $ node server.js 8002 &
+    $ echo hack the planet | curl -d@- http://0.0.0.0:8002
     beep boop
     $ cat post.txt
     hack the planet
@@ -54,3 +54,10 @@ defined:
     function end (done) { done(); }
 
 Do that, but send upper-case data in your http server in response to POST data.
+
+
+To verify your `program.js` against the expected output, do:
+
+`node program.js`
+
+or press the Submit button.

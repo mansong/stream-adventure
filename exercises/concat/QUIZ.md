@@ -21,3 +21,9 @@ concat to buffer POST content in order to JSON.parse() the submitted data:
 
 In your adventure you'll only need to buffer input with `concat()` from
 process.stdin.
+
+To verify your `program.js` against the expected output, do:
+
+`node program.js < data.txt`
+
+or press the Submit button.

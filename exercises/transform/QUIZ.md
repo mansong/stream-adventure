@@ -49,3 +49,10 @@ and pipe your transform stream into `process.stdout`, like this:
     process.stdin.pipe(tr).pipe(process.stdout);
 
 To convert a buffer to a string, call `buffer.toString()`.
+
+
+To verify your `program.js` against the expected output, do:
+
+`node program.js < data.txt`
+
+or press the Submit button.
